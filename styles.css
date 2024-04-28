@@ -19,14 +19,14 @@ header {
 
 #calculator-container {
     position: relative;
-    width: 400px; /* Set this to the width of your calculator image */
+    width: 450px; /* Set this to the width of your calculator image */
     height: 900px; /* Set this to the height of your calculator image */
     margin: 20px;
 }
 #p5-sketch {
     position: absolute;
-    top: 20px; /* Adjust this to position the iframe behind the screen part of the image */
-    left: 30px; /* Adjust this value as needed */
+    top: 22px; /* Adjust this to position the iframe behind the screen part of the image */
+    left: 27px; /* Adjust this value as needed */
     width: 400px; /* Adjust width to fit the screen area of your calculator */
     height: 500px; /* Adjust height to fit the screen area of your calculator */
     z-index: 10; /* Lower than the image to keep it behind */
