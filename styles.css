@@ -19,8 +19,8 @@ header {
 
 #calculator-container {
     position: relative;
-    width: 500px; /* Set this to the width of your calculator image */
-    height: 700px; /* Set this to the height of your calculator image */
+    width: 400px; /* Set this to the width of your calculator image */
+    height: 550px; /* Set this to the height of your calculator image */
     margin: 20px;
 }
 
@@ -35,10 +35,10 @@ header {
 
 #p5-sketch {
     position: absolute;
-    top: 50px; /* Adjust this to position the iframe behind the screen part of the image */
-    left: 50px; /* Adjust this value as needed */
-    width: 200px; /* Adjust width to fit the screen area of your calculator */
-    height: 300px; /* Adjust height to fit the screen area of your calculator */
+    top: 20px; /* Adjust this to position the iframe behind the screen part of the image */
+    left: 40px; /* Adjust this value as needed */
+    width: 300px; /* Adjust width to fit the screen area of your calculator */
+    height: 600px; /* Adjust height to fit the screen area of your calculator */
     z-index: 5; /* Lower than the image to keep it behind */
 }
 body {
