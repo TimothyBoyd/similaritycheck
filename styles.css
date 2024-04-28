@@ -24,6 +24,7 @@ header {
 }
 .par1 {
     font-size: 14px;
+    color: #ececec;
 }
 .calculator-wrapper {
     display: flex;
