@@ -18,9 +18,10 @@ header {
 }
 
 #calculator-container {
+    float: left; /* This makes the calculator container align to the left */
     position: relative;
     width: 300px; /* Adjust to match the width of your calculator image */
-    margin: 20px auto;
+    margin: 20px;
 }
 
 #calculator-image {
