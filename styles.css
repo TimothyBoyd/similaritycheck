@@ -25,8 +25,8 @@ header {
 }
 #p5-sketch {
     position: absolute;
-    top: 0px; /* Adjust this to position the iframe behind the screen part of the image */
-    left: 40px; /* Adjust this value as needed */
+    top: 20px; /* Adjust this to position the iframe behind the screen part of the image */
+    left: 30px; /* Adjust this value as needed */
     width: 400px; /* Adjust width to fit the screen area of your calculator */
     height: 500px; /* Adjust height to fit the screen area of your calculator */
     z-index: 10; /* Lower than the image to keep it behind */
