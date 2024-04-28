@@ -29,7 +29,7 @@ header {
     left: 40px; /* Adjust this value as needed */
     width: 400px; /* Adjust width to fit the screen area of your calculator */
     height: 500px; /* Adjust height to fit the screen area of your calculator */
-    z-index: 5; /* Lower than the image to keep it behind */
+    z-index: 10; /* Lower than the image to keep it behind */
 }
 
 #calculator-image {
@@ -38,7 +38,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%; /* These ensure the image covers the entire container */
-    z-index: 10; /* Higher z-index to make it sit on top */
+    z-index: 5; /* Higher z-index to make it sit on top */
 }
 
 
