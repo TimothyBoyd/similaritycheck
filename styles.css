@@ -27,8 +27,8 @@ header {
     position: absolute;
     top: 0px; /* Adjust this to position the iframe behind the screen part of the image */
     left: 40px; /* Adjust this value as needed */
-    width: 300px; /* Adjust width to fit the screen area of your calculator */
-    height: 400px; /* Adjust height to fit the screen area of your calculator */
+    width: 400px; /* Adjust width to fit the screen area of your calculator */
+    height: 500px; /* Adjust height to fit the screen area of your calculator */
     z-index: 5; /* Lower than the image to keep it behind */
 }
 
