@@ -7,53 +7,54 @@ body {
     margin: 0;
     background: #4e5c30;
     color: #272e18;
-    text-align: left;
     font-family: 'minecraft', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 header {
+    width: 100%;
     padding: 20px;
     background-color: #3c4821;
     color: #1d4119;
+    text-align: center;
 }
 
-#calculator-container {
-    position: relative;
-    width: 450px; /* Set this to the width of your calculator image */
-    height: 900px; /* Set this to the height of your calculator image */
+.calculator-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
 }
-#p5-sketch {
-    position: absolute;
-    top: 22px; /* Adjust this to position the iframe behind the screen part of the image */
-    left: 27px; /* Adjust this value as needed */
-    width: 400px; /* Adjust width to fit the screen area of your calculator */
-    height: 500px; /* Adjust height to fit the screen area of your calculator */
-    z-index: 10; /* Lower than the image to keep it behind */
+
+.calculator-container {
+    position: relative;
+    width: 450px;
+    height: 900px;
+    margin: 0 10px;
 }
 
-#calculator-image {
+.p5-sketch {
+    position: absolute;
+    top: 22px;
+    left: 27px;
+    width: 400px;
+    height: 500px;
+    z-index: 5;  /* Behind the image */
+}
+
+.calculator-image {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* These ensure the image covers the entire container */
-    z-index: 5; /* Higher z-index to make it sit on top */
+    height: 100%;
+    z-index: 10;  /* On top of the iframe */
 }
 
-
-body {
-    display: flex;
-    justify-content: flex-start; /* Aligns children (flex items) to the start of the flex container's main axis */
-    align-items: flex-start; /* Aligns items to the start of the cross axis */
-    flex-direction: column; /* Stacks the flex items vertically */
-    min-height: 100vh; /* Makes the body at least the height of the viewport */
-    margin: 0;
-    background: #4e5c30;
-    color: #272e18;
-    text-align: center;
-    font-family: 'minecraft', sans-serif;
-}
 #additional-info {
     margin-top: 20px;
     color: #ececec;
