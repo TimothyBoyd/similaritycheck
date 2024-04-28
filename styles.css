@@ -18,10 +18,9 @@ header {
 }
 
 #calculator-container {
-    float: left; /* This makes the calculator container align to the left */
     position: relative;
     width: 300px; /* Adjust to match the width of your calculator image */
-    margin: 20px;
+    margin: 20px 20px 20px 0; /* Adds margin to the right, top, and bottom, none to the left */
 }
 
 #calculator-image {
@@ -37,7 +36,18 @@ header {
     height: 60%;
     border: none; /* Removes the default border around iframes */
 }
-
+body {
+    display: flex;
+    justify-content: flex-start; /* Aligns children (flex items) to the start of the flex container's main axis */
+    align-items: flex-start; /* Aligns items to the start of the cross axis */
+    flex-direction: column; /* Stacks the flex items vertically */
+    min-height: 100vh; /* Makes the body at least the height of the viewport */
+    margin: 0;
+    background: #4e5c30;
+    color: #272e18;
+    text-align: center;
+    font-family: 'minecraft', sans-serif;
+}
 #additional-info {
     margin-top: 20px;
     color: #ececec;
