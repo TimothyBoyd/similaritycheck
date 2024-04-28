@@ -59,6 +59,9 @@ header {
 }
 
 #additional-info {
-    margin-top: 20px;
-    color: #ececec;
+    width: 120%;
+    padding: 28px;
+    background-color: #272e18;
+    color: #4e5c30;
+    text-align: center;
 }
