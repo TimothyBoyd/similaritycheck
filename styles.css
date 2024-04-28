@@ -14,13 +14,13 @@ body {
 header {
     padding: 20px;
     background-color: #3c4821;
-    color: #fff;
+    color: #1d4119;
 }
 
 #calculator-container {
     position: relative;
     width: 1050px; /* Adjust to match the width of your calculator image */
-    margin: 20px 20px 20px 0; /* Adds margin to the right, top, and bottom, none to the left */
+    margin: 25px 20px 20px 0; /* Adds margin to the right, top, and bottom, none to the left */
 }
 
 #calculator-image {
