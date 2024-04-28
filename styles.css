@@ -1,11 +1,42 @@
 @font-face {
     font-family: 'minecraft';
-    src: url(fonts/Minecraft.ttf);
+    src: url('fonts/Minecraft.ttf');
 }
+
 body {
-    margin:0;
+    margin: 0;
     background: #4e5c30;
     color: #272e18;
     text-align: center;
     font-family: 'minecraft', sans-serif;
+}
+
+header {
+    padding: 20px;
+    background-color: #3c4821;
+    color: #fff;
+}
+
+#calculator-container {
+    position: relative;
+    width: 300px; /* adjust size as per your image */
+    margin: 20px auto;
+}
+
+#calculator-image {
+    width: 100%;
+    display: block; /* this ensures there are no margins around the image */
+}
+
+#p5-sketch {
+    position: absolute;
+    top: 20%;  /* adjust these values based on the exact position inside the calculator image */
+    left: 20%;
+    width: 60%;
+    height: 60%;
+}
+
+#additional-info {
+    margin-top: 20px;
+    color: #ececec;
 }
