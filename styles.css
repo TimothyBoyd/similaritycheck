@@ -23,8 +23,8 @@ header {
     text-align: center;
 }
 .par1 {
-    font-size: 14px;
-    color: #ececec;
+    font-size: 18px;
+    text-align: center;
 }
 .calculator-wrapper {
     display: flex;
