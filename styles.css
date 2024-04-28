@@ -22,7 +22,9 @@ header {
     color: #4e5c30;
     text-align: center;
 }
-
+.par1 {
+    font-size: 14px;
+}
 .calculator-wrapper {
     display: flex;
     justify-content: center;
