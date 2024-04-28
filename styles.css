@@ -19,21 +19,22 @@ header {
 
 #calculator-container {
     position: relative;
-    width: 300px; /* adjust size as per your image */
+    width: 300px; /* Adjust to match the width of your calculator image */
     margin: 20px auto;
 }
 
 #calculator-image {
     width: 100%;
-    display: block; /* this ensures there are no margins around the image */
+    display: block;
 }
 
 #p5-sketch {
     position: absolute;
-    top: 20%;  /* adjust these values based on the exact position inside the calculator image */
-    left: 20%;
-    width: 60%;
+    top: 10%;  /* Adjust these values to position the iframe correctly on the calculator image */
+    left: 10%;
+    width: 80%; /* These dimensions should be fine-tuned to fit the display area of your calculator image */
     height: 60%;
+    border: none; /* Removes the default border around iframes */
 }
 
 #additional-info {
