@@ -19,7 +19,7 @@ header {
 
 #calculator-container {
     position: relative;
-    width: 300px; /* Adjust to match the width of your calculator image */
+    width: 1050px; /* Adjust to match the width of your calculator image */
     margin: 20px 20px 20px 0; /* Adds margin to the right, top, and bottom, none to the left */
 }
 
