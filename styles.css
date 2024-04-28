@@ -19,8 +19,8 @@ header {
 
 #calculator-container {
     position: relative;
-    width: 300px; /* Set this to the width of your calculator image */
-    height: 600px; /* Set this to the height of your calculator image */
+    width: 500px; /* Set this to the width of your calculator image */
+    height: 700px; /* Set this to the height of your calculator image */
     margin: 20px;
 }
 
