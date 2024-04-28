@@ -1,15 +1,34 @@
 <html lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Similarity Check</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
 </head>
 <body>
-    <h1>similaritycheck</h1>
-    <p>Hello World</p>
-    <p>Hello World</p>
-    <p>Hello World</p>
+    <header>
+        <h1>Similarity Check</h1>
+    </header>
+    <div id="calculator-container">
+        <img src="images/calc" alt="Calculator" id="calculator-image">
+        <div id="p5-sketch"></div>
+    </div>
     <h2>Euclidean Distance</h2>
+    <p id="additional-info">Here you can add any additional information or description related to the functionality of your tool.</p>
+    <script>
+        function setup() {
+            let canvas = createCanvas(200, 200); // Adjust the size to fit inside the calculator screen area
+            canvas.parent('p5-sketch'); // This will attach the canvas to the 'p5-sketch' div
+            background(255); // Sets a white background
+        }
+
+        function draw() {
+            fill(0); // Sets the fill color to black
+            ellipse(width / 2, height / 2, 50, 50); // Draws an ellipse in the middle of the canvas
+        }
+    </script>
 </body>
 </html>
