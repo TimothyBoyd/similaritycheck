@@ -23,6 +23,14 @@ header {
     height: 900px; /* Set this to the height of your calculator image */
     margin: 20px;
 }
+#p5-sketch {
+    position: absolute;
+    top: 0px; /* Adjust this to position the iframe behind the screen part of the image */
+    left: 40px; /* Adjust this value as needed */
+    width: 300px; /* Adjust width to fit the screen area of your calculator */
+    height: 400px; /* Adjust height to fit the screen area of your calculator */
+    z-index: 5; /* Lower than the image to keep it behind */
+}
 
 #calculator-image {
     position: absolute;
@@ -33,14 +41,7 @@ header {
     z-index: 10; /* Higher z-index to make it sit on top */
 }
 
-#p5-sketch {
-    position: absolute;
-    top: 0px; /* Adjust this to position the iframe behind the screen part of the image */
-    left: 40px; /* Adjust this value as needed */
-    width: 300px; /* Adjust width to fit the screen area of your calculator */
-    height: 400px; /* Adjust height to fit the screen area of your calculator */
-    z-index: 5; /* Lower than the image to keep it behind */
-}
+
 body {
     display: flex;
     justify-content: flex-start; /* Aligns children (flex items) to the start of the flex container's main axis */
