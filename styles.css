@@ -99,3 +99,15 @@ header {
     color: #4e5c30;
     text-align: center;
 }
+.wide-p5js {
+    width: 100%; /* Adjust this value as necessary */
+    height: 500px; /* Modify based on your content */
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wide-p5-sketch {
+    width: 90%; /* Adjust this value as necessary to fit inside the div */
+    height: 100%;
+}
