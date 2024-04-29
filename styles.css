@@ -99,3 +99,9 @@ header {
     color: #4e5c30;
     text-align: center;
 }
+.practice {
+    position: relative;
+    width: 450px;
+    height: 900px;
+    margin: 0 10px;
+}
