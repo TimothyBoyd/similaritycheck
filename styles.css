@@ -111,3 +111,11 @@ header {
     width: 90%; /* Adjust this value as necessary to fit inside the div */
     height: 100%;
 }
+#additional-info6 {
+    font-size: 48px;
+    width: 120%;
+    padding: 28px;
+    background-color: #272e18;
+    color: #4e5c30;
+    text-align: center;
+}
