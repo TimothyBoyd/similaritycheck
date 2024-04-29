@@ -100,8 +100,8 @@ header {
     text-align: center;
 }
 .wide-p5js {
-    width: 100%; /* Adjust this value as necessary */
-    height: 500px; /* Modify based on your content */
+    width: 80%; /* Adjust this value as necessary */
+    height: 530px; /* Modify based on your content */
     margin: 20px 0;
     display: flex;
     justify-content: center;
