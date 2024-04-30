@@ -119,3 +119,10 @@ header {
     color: #4e5c30;
     text-align: center;
 }
+.regp5js {
+    width: 50%; /* Adjust this value as necessary */
+    height: 400px; /* Modify based on your content */
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
